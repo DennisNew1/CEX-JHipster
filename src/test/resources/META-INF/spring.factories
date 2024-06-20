@@ -1,0 +1,2 @@
+org.springframework.test.context.ContextCustomizerFactory = de.cinema_booking.\
+    booking_system.config.SqlTestContainersSpringContextCustomizerFactory
