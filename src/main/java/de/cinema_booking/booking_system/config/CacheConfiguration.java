@@ -37,6 +37,13 @@ public class CacheConfiguration {
             createCache(cm, de.cinema_booking.booking_system.repository.UserRepository.USERS_BY_LOGIN_CACHE);
             createCache(cm, de.cinema_booking.booking_system.repository.UserRepository.USERS_BY_EMAIL_CACHE);
             createCache(cm, de.cinema_booking.booking_system.domain.Authority.class.getName());
+            createCache(cm, de.cinema_booking.booking_system.domain.Movie.class.getName());
+            createCache(cm, de.cinema_booking.booking_system.domain.Movie.class.getName() + ".screens");
+            createCache(cm, de.cinema_booking.booking_system.domain.Movie.class.getName() + ".bookings");
+            createCache(cm, de.cinema_booking.booking_system.domain.Screen.class.getName());
+            createCache(cm, de.cinema_booking.booking_system.domain.Booking.class.getName());
+            createCache(cm, de.cinema_booking.booking_system.domain.Customer.class.getName());
+            createCache(cm, de.cinema_booking.booking_system.domain.Customer.class.getName() + ".bookings");
             // jhipster-needle-caffeine-add-entry
         };
     }

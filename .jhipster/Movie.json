@@ -1,0 +1,46 @@
+{
+  "annotations": {
+    "changelogDate": "20240729162527"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "movieId",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "title",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "genre",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "duration",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "releaseDate",
+      "fieldType": "ZonedDateTime"
+    }
+  ],
+  "name": "Movie",
+  "relationships": [
+    {
+      "otherEntityName": "screen",
+      "otherEntityRelationshipName": "movie",
+      "relationshipName": "screen",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "booking",
+      "otherEntityRelationshipName": "movie",
+      "relationshipName": "booking",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no"
+}

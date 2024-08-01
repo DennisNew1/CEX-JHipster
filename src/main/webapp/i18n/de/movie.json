@@ -1,0 +1,30 @@
+{
+  "jhipsterApp": {
+    "movie": {
+      "home": {
+        "title": "Movies",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Movie erstellen",
+        "createOrEditLabel": "Movie erstellen oder bearbeiten",
+        "notFound": "Keine Movies gefunden"
+      },
+      "created": "Movie erstellt mit ID { param }",
+      "updated": "Movie aktualisiert mit ID { param }",
+      "deleted": "Movie gelöscht mit ID { param }",
+      "delete": {
+        "question": "Soll Movie { id } wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Movie"
+      },
+      "id": "ID",
+      "movieId": "Movie Id",
+      "title": "Title",
+      "genre": "Genre",
+      "duration": "Duration",
+      "releaseDate": "Release Date",
+      "screen": "Screen",
+      "booking": "Booking"
+    }
+  }
+}

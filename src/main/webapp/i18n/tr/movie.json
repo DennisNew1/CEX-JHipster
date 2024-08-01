@@ -1,0 +1,30 @@
+{
+  "jhipsterApp": {
+    "movie": {
+      "home": {
+        "title": "Movies",
+        "refreshListLabel": "Listeyi yenile",
+        "createLabel": "Yeni Movie ekle",
+        "createOrEditLabel": "Yeni Movie ekle veya guncelle",
+        "notFound": "Movies kaydi bulunamadi"
+      },
+      "created": "{ param } ID ile bir Movie eklendi",
+      "updated": "{ param } nolu Movie guncellendi",
+      "deleted": "{ param } nolu Movie silindi",
+      "delete": {
+        "question": "{ id } nolu Movie silinecek. Devem etmek istiyor musunuz?"
+      },
+      "detail": {
+        "title": "Movie"
+      },
+      "id": "ID",
+      "movieId": "Movie Id",
+      "title": "Title",
+      "genre": "Genre",
+      "duration": "Duration",
+      "releaseDate": "Release Date",
+      "screen": "Screen",
+      "booking": "Booking"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+entity Movie {
+    movieId UUID
+    title String
+    genre String
+    duration Integer
+    releaseDate ZonedDateTime
+}
+
+entity Screen {
+    screenID UUID
+    name String
+    totalSeats Integer
+}
+
+entity Booking {
+    bookingID UUID
+    movieTime ZonedDateTime
+    seatID Integer
+    paymentStatus String
+}
+
+entity Customer {
+    customerID UUID
+    name String
+    email String
+    phoneNumber Integer
+}
+
+relationship OneToMany {
+    Movie to Screen
+    Movie to Booking
+    Customer to Booking
+}

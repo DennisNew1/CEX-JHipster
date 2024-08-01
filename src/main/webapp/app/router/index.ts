@@ -2,6 +2,8 @@ import { createRouter as createVueRouter, createWebHistory } from 'vue-router';
 
 const Home = () => import('@/core/home/home.vue');
 const Error = () => import('@/core/error/error.vue');
+const BookingExt = () => import('@/external/booking/booking-ext.vue');
+
 import account from '@/router/account';
 import admin from '@/router/admin';
 import entities from '@/router/entities';
@@ -27,6 +29,11 @@ export const createRouter = () =>
         name: 'NotFound',
         component: Error,
         meta: { error404: true },
+      },
+      {
+        path: '/booking-ext',
+        name: 'booking',
+        component: BookingExt,
       },
       ...account,
       ...admin,

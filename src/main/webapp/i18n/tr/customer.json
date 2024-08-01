@@ -1,0 +1,28 @@
+{
+  "jhipsterApp": {
+    "customer": {
+      "home": {
+        "title": "Customers",
+        "refreshListLabel": "Listeyi yenile",
+        "createLabel": "Yeni Customer ekle",
+        "createOrEditLabel": "Yeni Customer ekle veya guncelle",
+        "notFound": "Customers kaydi bulunamadi"
+      },
+      "created": "{ param } ID ile bir Customer eklendi",
+      "updated": "{ param } nolu Customer guncellendi",
+      "deleted": "{ param } nolu Customer silindi",
+      "delete": {
+        "question": "{ id } nolu Customer silinecek. Devem etmek istiyor musunuz?"
+      },
+      "detail": {
+        "title": "Customer"
+      },
+      "id": "ID",
+      "customerID": "Customer ID",
+      "name": "Name",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "booking": "Booking"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "annotations": {
+    "changelogDate": "20240729162529"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "bookingID",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "movieTime",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "seatID",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "paymentStatus",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Booking",
+  "relationships": [
+    {
+      "otherEntityName": "movie",
+      "otherEntityRelationshipName": "booking",
+      "relationshipName": "movie",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "customer",
+      "otherEntityRelationshipName": "booking",
+      "relationshipName": "customer",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no"
+}

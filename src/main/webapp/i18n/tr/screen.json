@@ -1,0 +1,27 @@
+{
+  "jhipsterApp": {
+    "screen": {
+      "home": {
+        "title": "Screens",
+        "refreshListLabel": "Listeyi yenile",
+        "createLabel": "Yeni Screen ekle",
+        "createOrEditLabel": "Yeni Screen ekle veya guncelle",
+        "notFound": "Screens kaydi bulunamadi"
+      },
+      "created": "{ param } ID ile bir Screen eklendi",
+      "updated": "{ param } nolu Screen guncellendi",
+      "deleted": "{ param } nolu Screen silindi",
+      "delete": {
+        "question": "{ id } nolu Screen silinecek. Devem etmek istiyor musunuz?"
+      },
+      "detail": {
+        "title": "Screen"
+      },
+      "id": "ID",
+      "screenID": "Screen ID",
+      "name": "Name",
+      "totalSeats": "Total Seats",
+      "movie": "Movie"
+    }
+  }
+}

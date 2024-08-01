@@ -1,0 +1,29 @@
+{
+  "jhipsterApp": {
+    "booking": {
+      "home": {
+        "title": "Bookings",
+        "refreshListLabel": "Listeyi yenile",
+        "createLabel": "Yeni Booking ekle",
+        "createOrEditLabel": "Yeni Booking ekle veya guncelle",
+        "notFound": "Bookings kaydi bulunamadi"
+      },
+      "created": "{ param } ID ile bir Booking eklendi",
+      "updated": "{ param } nolu Booking guncellendi",
+      "deleted": "{ param } nolu Booking silindi",
+      "delete": {
+        "question": "{ id } nolu Booking silinecek. Devem etmek istiyor musunuz?"
+      },
+      "detail": {
+        "title": "Booking"
+      },
+      "id": "ID",
+      "bookingID": "Booking ID",
+      "movieTime": "Movie Time",
+      "seatID": "Seat ID",
+      "paymentStatus": "Payment Status",
+      "movie": "Movie",
+      "customer": "Customer"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "annotations": {
+    "changelogDate": "20240729162528"
+  },
+  "applications": "*",
+  "fields": [
+    {
+      "fieldName": "screenID",
+      "fieldType": "UUID"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "totalSeats",
+      "fieldType": "Integer"
+    }
+  ],
+  "name": "Screen",
+  "relationships": [
+    {
+      "otherEntityName": "movie",
+      "otherEntityRelationshipName": "screen",
+      "relationshipName": "movie",
+      "relationshipSide": "right",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no"
+}
